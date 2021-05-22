@@ -35,7 +35,7 @@ public final class AddonTemplate extends AbstractAddon {
 
     @Nonnull
     @Override
-    protected List<AbstractCommand> getSubCommands() {
+    protected List<AbstractCommand> setupSubCommands() {
         return new ArrayList<>();
     }
 
